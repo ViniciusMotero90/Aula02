@@ -12,6 +12,9 @@ public class DesvioSimples {
 		System.out.println("Por favor, digite a sua idade!");
 		idade = leitor.nextInt();
 		System.out.println("Deixe-me verificar sua idade...");
+		if(idade >= 12) {
+			System.out.println("Você pode jogar");
+		}
 		/*Aqui devemos criar uma solução para verificar a idade do usuário*/
 		
 		leitor.close();
